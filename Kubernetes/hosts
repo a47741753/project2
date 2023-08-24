@@ -1,0 +1,6 @@
+[ansible-server]
+localhost
+
+[kubernetes]
+172.31.34.148
+#<kubernetes Public IP>
