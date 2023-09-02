@@ -11,7 +11,7 @@
         chdir: /opt/docker
 
     - name: create tag to image
-      command: docker tag simple-devops-image ameintu/simple-devops-image
+      command: docker tag simple-devops-image a47741753/simple-devops-image
 
     - name: push image on to dockerhub
       command: docker push a47741753/simple-devops-image
