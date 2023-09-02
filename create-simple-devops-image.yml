@@ -14,7 +14,7 @@
       command: docker tag simple-devops-image ameintu/simple-devops-image
 
     - name: push image on to dockerhub
-      command: docker push ameintu/simple-devops-image
+      command: docker push a47741753/simple-devops-image
 
     - name: remove docker images from ansible server
       command: docker rmi tomcat simple-devops-image:latest ameintu/simple-devops-image
